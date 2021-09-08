@@ -1,2 +1,2 @@
 language = "java"
-run = "javac Healthsystem.java"
+run = "bash main.sh"
