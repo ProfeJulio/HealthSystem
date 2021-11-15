@@ -1,6 +1,6 @@
 clear
 cd HealthSystem
-printf "Compilando ..."
+printf "Compilando ...\n"
 javac -d build/classes src/healthsystem/*.java
 if [ $? == 0 ]
 then
