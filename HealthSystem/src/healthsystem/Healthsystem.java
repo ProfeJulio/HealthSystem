@@ -12,7 +12,7 @@ class Healthsystem {
     Jprincipal.recibirVida(MiBotiquin.curarVida());
     System.out.println(">> La vida del Jugador es "+Jprincipal.getVida()+"\n");
 
-    System.out.println("\n\nAQUI ESTOY!!!\n\n")
+    System.out.println("\n\nAQUI ESTOY!!!\n\n");
 
     Jprincipal.recibirDanio( zombito.ataque() );
     System.out.println(">> El Zombie ataca a Jugador Principal. Jugador Principal tiene "+Jprincipal.getVida()+" de vida");
